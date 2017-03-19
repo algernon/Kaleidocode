@@ -7,3 +7,19 @@ Deep down the `EEPROM` is just a sequence of bytes. However, we have a number of
  [plugin:eeprom-settings]: https://github.com/keyboardio/Kaleidoscope-EEPROM-Settings
 
 > If we add new plugins to our sketch, ones that use `EEPROM`, we should request their slice after all the others we already have.
+
+The most simple sketch that uses the [EEPROM-Settings][plugin:eeprom-settings] plugin is shown below. It is recommended to start from there.
+
+```c++
+#include "Kaleidscope.h"
+#include "Kaleidoscope-EEPROM-Settings.h"
+
+void setup () {
+  Kaleidoscope.setup ();
+  USE_PLUGINS (&EEPROMSettings);
+  
+  EEPROMSettings.seal ();
+}
+```
+
+This does not do a whole lot, just initializes the framework, and makes sure that the small header the plugin needs to store the checksum - among other things - is safe and sound. When adding new plugins, requesting slices of storage, add those before the call to `EEPROMSettings.seal()`! Sealing the plugin means that no new slices will be given out, and we can verify the integrity of the layout.
