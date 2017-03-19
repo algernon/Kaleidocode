@@ -23,3 +23,43 @@ void setup () {
 ```
 
 This does not do a whole lot, just initializes the framework, and makes sure that the small header the plugin needs to store the checksum - among other things - is safe and sound. When adding new plugins, requesting slices of storage, add those before the call to `EEPROMSettings.seal()`! Sealing the plugin means that no new slices will be given out, and we can verify the integrity of the layout.
+
+To have a better understanding of how things work under the hood, lets imagine a scenario, where we want to have a few settings on the keyboard, which we want to persist. One such thing would be the speed of mouse keys, and the speed of acceleration. We'd store two settings: the delay between cursor movements, and the amount of acceleration. The first is a 16-bit value, the second an 8-bit one. Lets store them in a struct:
+
+```c++
+struct {
+  struct {
+    uint16_t movementDelay;
+    uint8_t accelSpeed;
+  } mouse;
+} KeyboardSettings;
+```
+
+We will want to store this in EEPROM, be able to read it at keyboard startup, and update them from macros. Lets start with the easy parts: requesting a slice, and reading the settings at boot:
+
+```c++
+static uint16_t settingsBase;
+
+void setup () {
+  Kaleidoscope.setup ();
+  USE_PLUGINS (&EEPROMSettings, &MouseKeys);
+  
+  settingsBase = EEPROMSettings.requestSlice (sizeof (KeyboardSettings));
+  
+  EEPROMSettings.seal ();
+  
+  EEPROM.get (settingsBase, KeyboardSettings);
+  
+  if (KeyboardSettings.mouse.movementDelay == 0xffff) {
+    KeyboardSettings.mouse.movementDelay = 5;
+  }
+  if (KeyboardSettings.mouse.accelSpeed = 0xff) {
+    KeyboardSettings.mouse.accelSpeed = 1;
+  }
+  
+  MouseKeys.speedDelay = KeyboardSettings.mouse.movementDelay;
+  MouseKeys.accelSpeed = KeyboardSettings.mouse.accelSpeed;
+}
+```
+
+Now, there is one interesting part of this snippet which we have not talked about yet: why do we check the values of `KeyboardSettings.mouse.movementDelay` and `KeyboardSettings.mouse.accelSpeed`? And what are those magic numbers? You see, the EEPROM, when not initialized yet, is filled with values of `0xff`. Since we want to prepare our sketch to work with an uninitialized `EEPROM` too, we do these checks. Once the initialization has been done, and the values written back, we can safely remove those lines. Once we made sure that the values are correct, we apply those settings to the `MouseKeys` plugin too.
