@@ -12,4 +12,4 @@ And this is where EEPROM comes in, as a middle ground between the two others: sm
 
 However, using the EEPROM is not entirely trivial, there are many ways one can end up in incredibly confusing situations. Within this chapter, we will be looking at ways to avoid that. We will learn how to avoid the most common issues, and how to roll back, if we end up in a bad place.
 
-* [The layout of the EEPROM][layout-of-the-eepom.md]
+* [The layout of the EEPROM](layout-of-the-eepom.md)
