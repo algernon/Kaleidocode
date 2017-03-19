@@ -1,3 +1,9 @@
 <!-- -*- mode: markdown; fill-column: 8192 -*- -->
 
 ## The layout of the EEPROM
+
+Deep down the `EEPROM` is just a sequence of bytes. However, we have a number of semi-independent plugins, which all want to store some data in there. Therefore, we need a way to coordinate this, preferably in a way that makes it possible to detect when the firmware and the `EEPROM` are out of sync. This is where the [EEPROM-Settings][plugin:eeprom-settings] plugin comes in. This plugin is the coordinator, that other plugins can request slices of memory from, and it will hand out the next slice, as long as there is enough room left. As long as plugins request the same amount, in the same order, the contents of `EEPROM` will remain valid.
+
+ [plugin:eeprom-settings]: https://github.com/keyboardio/Kaleidoscope-EEPROM-Settings
+
+**NOTE**: So the first thing we need to learn, is that if we add new plugins to our sketch, ones that use `EEPROM`, we should request their slice after all the others we already have.
