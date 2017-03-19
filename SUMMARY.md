@@ -3,3 +3,4 @@
 ### Table of Contents
 
 * [Working with the EEPROM](EEPROM/README.md)
+* [License](COPYING.md)
