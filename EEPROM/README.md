@@ -15,3 +15,4 @@ However, using the `EEPROM` is not entirely trivial, there are many ways one can
 * [The layout of the EEPROM](layout-of-the-eeprom.md)
 * [Getting data in and out of EEPROM](getting-data-in-and-out-of-eeprom.md)
 * [Avoiding becoming out of sync](avoiding-becoming-out-of-sync.md)
+* [The keyboard, the host, and EEPROM](keyboard-host-and-eeprom.md)
