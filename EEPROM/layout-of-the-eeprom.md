@@ -11,9 +11,6 @@ Deep down the `EEPROM` is just a sequence of bytes. However, we have a number of
 The most simple sketch that uses the [EEPROM-Settings][plugin:eeprom-settings] plugin is shown below. It is recommended to start from there.
 
 ```c++
-#include "Kaleidscope.h"
-#include "Kaleidoscope-EEPROM-Settings.h"
-
 void setup () {
   Kaleidoscope.setup ();
   USE_PLUGINS (&EEPROMSettings);
@@ -63,3 +60,9 @@ void setup () {
 ```
 
 Now, there is one interesting part of this snippet which we have not talked about yet: why do we check the values of `KeyboardSettings.mouse.movementDelay` and `KeyboardSettings.mouse.accelSpeed`? And what are those magic numbers? You see, the EEPROM, when not initialized yet, is filled with values of `0xff`. Since we want to prepare our sketch to work with an uninitialized `EEPROM` too, we do these checks. Once the initialization has been done, and the values written back, we can safely remove those lines. Once we made sure that the values are correct, we apply those settings to the `MouseKeys` plugin too.
+
+This pretty much covers how data is laid out in `EEPROM`: we start with a small header, then we - or plugins we use - can request slices, and they will be allocated in a continuous manner.
+
+> **Being out of sync**: If we request a slice before our `KeyboardSettings` request, then the layout our firmware works with will be different than we have stored in `EEPROM`. This is what we call being out of sync. To avoid this, we either need to add further slice requests after the ones we already have, or we must move the contents of `EEPROM`, n way or the other.
+
+In the next section, we will look at how storage and retrieval works, in a little more detail.
