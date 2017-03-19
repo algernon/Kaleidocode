@@ -6,4 +6,4 @@ Deep down the `EEPROM` is just a sequence of bytes. However, we have a number of
 
  [plugin:eeprom-settings]: https://github.com/keyboardio/Kaleidoscope-EEPROM-Settings
 
-**NOTE**: So the first thing we need to learn, is that if we add new plugins to our sketch, ones that use `EEPROM`, we should request their slice after all the others we already have.
+> If we add new plugins to our sketch, ones that use `EEPROM`, we should request their slice after all the others we already have.
