@@ -63,6 +63,8 @@ Now, there is one interesting part of this snippet which we have not talked abou
 
 This pretty much covers how data is laid out in `EEPROM`: we start with a small header, then we - or plugins we use - can request slices, and they will be allocated in a continuous manner.
 
-> **Being out of sync**: If we request a slice before our `KeyboardSettings` request, then the layout our firmware works with will be different than we have stored in `EEPROM`. This is what we call being out of sync. To avoid this, we either need to add further slice requests after the ones we already have, or we must move the contents of `EEPROM`, n way or the other.
+> **Being out of sync**: If we request a slice before our `KeyboardSettings` request, then the layout our firmware works with will be different than we have stored in `EEPROM`. This is what we call being out of sync. To avoid this, we either need to add further slice requests after the ones we already have, or we must move the contents of `EEPROM`, one way or the other.
+
+> **Note**: The layout of the EEPROM is not stored in the EEPROM, there is no table of contents, anywhere. The firmware is responsible for handling the layout itself, and this must be done with care. If we change the EEPROM layout, plugins will suddenly find themselves working with data that makes no sense.
 
 In the next section, we will look at how storage and retrieval works, in a little more detail.
