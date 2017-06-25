@@ -48,7 +48,7 @@ questions, I see, and I will happily explain everything in due time, but now I
 must hurry and bring this device to Mr. Mouse, he is eagerly expecting it.*".
 Then Mr. Butterfly paused for a moment, and concluded: "*You know what? Come
 with me, and Mr. Mouse can thank you in person for helping me! We'll have some
-tea and bagels, and proper introductions. What say you?"
+tea and bagels, and proper introductions. What say you?*"
 
 <!-- TODO: A picture of the twins thinking together -->
 
