@@ -23,4 +23,36 @@ creature, nor was it basking in the sun after all! It held a tiny magnifying
 glass in its tiny hands, outsized goggles over its eyes, and it was soldering
 something by collecting the rays of the sun with the magnifier. "*Are you two
 just going to stand there, or will you help me fix this thing?*" - it asked,
-seeing the dumbfounded look on the Twins' faces.
+seeing the dumbfounded look on the Twins' faces. They stepped closer to see what
+the *thing* the butterfly talked about was. Silver and gold lines ran across a
+green plate, little knobs stuck out of it from here and there, in numerous
+shapes and forms. Never have they seen anything like it before.
+
+<!-- TODO: A sketch of a PCB. -->
+
+"*How can we help?*" - she asked. "*Hold this board for me, will you?*" - the
+butterfly replied, and so she did. The creature then flew round the device and
+furiously soldered with its magnifying glass for a good few minutes. Then it
+landed on the birdbath, and exhausted, it exclaimed: "*Phew! This was a hard
+one. Thank you for your help, kids, Mr. Mouse will be very happy!*". "*Excuse me
+sir, but who are you, who is Mr. Mouse, what were you doing, and why, and what
+is this board and how can you talk and..." - they asked in tandem, many
+questions at the same time.
+
+<!-- TODO: Sketch of Mr. Butterfly shall come here. -->
+
+"*Oh, forgive me! Where did I leave my manners?! I am Mr. Butterfly. I used to
+grow pumpkins, and was even elected Pumpking at one point. But nowadays I'm
+creating keyboards.*" - the butterfly noted, then continued: "*You have many
+questions, I see, and I will happily explain everything in due time, but now I
+must hurry and bring this device to Mr. Mouse, he is eagerly expecting it.*".
+Then Mr. Butterfly paused for a moment, and concluded: "*You know what? Come
+with me, and Mr. Mouse can thank you in person for helping me! We'll have some
+tea and bagels, and proper introductions. What say you?"
+
+<!-- TODO: A picture of the twins thinking together -->
+
+The Twins put their head together, and figured they may aswell visit this
+mystical mouse. They were both incredibly curious about what just happened.
+"*Lead the way, Mr. Butterfly!" - they finally answered, and followed the
+butterfly to the home of Mr. Mouse.
