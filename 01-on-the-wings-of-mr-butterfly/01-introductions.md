@@ -16,5 +16,5 @@ step, to not make any noise. Within the birdbath, they saw no birds having fun,
 but a butterfly basking in the sun. "*Oh, hello there, children!*" - it said,
 and they looked at it with eyes wide open. A talking butterfly! They have seen
 strange things during their many adventures, but a talking butterfly was
-something new. "*Don't be afraid, I don't bite.*" -t the little creature
+something new. "*Don't be afraid, I don't bite.*" - the little creature
 continued.
