@@ -3,6 +3,7 @@ Kaleidocode
 
 [![Patreon](https://img.shields.io/badge/Patreon-algernon-red.svg?style=flat-square&colorA=FF5900&colorB=555555)](https://www.patreon.com/algernon)
 [![License](https://img.shields.io/github/license/algernon/Kaleidocode.svg?style=flat-square)](https://www.gnu.org/licenses/gpl.html)
+[![Read it online](https://img.shields.io/badge/format-HTML-red.svg?style=flat-square&colorA=555555&colorB=4c1)](https://algernon.gitbooks.io/kaleidocode/content/)
 
 Once upon a time there lived a young girl and her twin brother, past the glass
 mountain, in a land of green fields, high hills, lush valleys and lots of
