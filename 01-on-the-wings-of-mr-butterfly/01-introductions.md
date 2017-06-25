@@ -54,5 +54,5 @@ tea and bagels, and proper introductions. What say you?*"
 
 The Twins put their head together, and figured they may aswell visit this
 mystical mouse. They were both incredibly curious about what just happened.
-"*Lead the way, Mr. Butterfly!" - they finally answered, and followed the
+"*Lead the way, Mr. Butterfly!*" - they finally answered, and followed the
 butterfly to the home of Mr. Mouse.
