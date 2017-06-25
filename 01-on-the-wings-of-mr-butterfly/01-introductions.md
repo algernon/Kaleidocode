@@ -51,6 +51,7 @@ with me, and Mr. Mouse can thank you in person for helping me! We'll have some
 tea and bagels, and proper introductions. What say you?*"
 
 <!-- TODO: A picture of the twins thinking together -->
+ ![The Twins thinking](../data/frame.png)
 
 The Twins put their head together, and figured they may aswell visit this
 mystical mouse. They were both incredibly curious about what just happened.
