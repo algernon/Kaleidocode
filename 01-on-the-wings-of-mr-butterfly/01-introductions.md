@@ -28,7 +28,7 @@ the *thing* the butterfly talked about was. Silver and gold lines ran across a
 green plate, little knobs stuck out of it from here and there, in numerous
 shapes and forms. Never have they seen anything like it before.
 
-<!-- TODO: A sketch of a PCB. -->
+ ![A Printed Circuit Board](pcb-sketch.png)
 
 "*How can we help?*" - she asked. "*Hold this board for me, will you?*" - the
 butterfly replied, and so she did. The creature then flew round the device and
@@ -39,7 +39,7 @@ sir, but who are you, who is Mr. Mouse, what were you doing, and why, and what
 is this board and how can you talk and..." - they asked in tandem, many
 questions at the same time.
 
-<!-- TODO: Sketch of Mr. Butterfly shall come here. -->
+ ![Mr. Butterfly](mr-butterfly.png)
 
 "*Oh, forgive me! Where did I leave my manners?! I am Mr. Butterfly. I used to
 grow pumpkins, and was even elected Pumpking at one point. But nowadays I'm
