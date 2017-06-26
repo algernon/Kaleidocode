@@ -28,7 +28,8 @@ the *thing* the butterfly talked about was. Silver and gold lines ran across a
 green plate, little knobs stuck out of it from here and there, in numerous
 shapes and forms. Never have they seen anything like it before.
 
- ![A Printed Circuit Board](pcb-sketch.png)
+ <!-- TODO -->
+ ![A Printed Circuit Board](../data/frame.png)
 
 "*How can we help?*" - she asked. "*Hold this board for me, will you?*" - the
 butterfly replied, and so she did. The creature then flew round the device and
@@ -39,7 +40,8 @@ sir, but who are you, who is Mr. Mouse, what were you doing, and why, and what
 is this board and how can you talk and...*" - they asked in tandem, many
 questions at the same time.
 
- ![Mr. Butterfly](mr-butterfly.png)
+ <!-- TODO -->
+ ![Mr. Butterfly](../data/frame.png)
 
 "*Oh, forgive me! Where did I leave my manners?! I am Mr. Butterfly. I used to
 grow pumpkins, and was even elected Pumpking at one point. But nowadays I'm
@@ -50,7 +52,7 @@ Then Mr. Butterfly paused for a moment, and concluded: "*You know what? Come
 with me, and Mr. Mouse can thank you in person for helping me! We'll have some
 tea and bagels, and proper introductions. What say you?*"
 
-<!-- TODO: A picture of the twins thinking together -->
+ <!-- TODO: A picture of the twins thinking together -->
  ![The Twins thinking](../data/frame.png)
 
 The Twins put their head together, and figured they may aswell visit this
