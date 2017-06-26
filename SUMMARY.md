@@ -1,6 +1,6 @@
 ### Table of Contents
 
-* [On the wings of Mr. Butterfly](01-on-the-wings-of-mr-butterfly/01-introductions.md)
+* [On the wings of Mr. Butterfly](01-on-the-wings-of-mr-butterfly/00-chapter.md)
     + [Introductions](01-on-the-wings-of-mr-butterfly/01-introductions.md)
 
 * [License](COPYING.md)
