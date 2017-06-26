@@ -36,7 +36,7 @@ furiously soldered with its magnifying glass for a good few minutes. Then it
 landed on the birdbath, and exhausted, it exclaimed: "*Phew! This was a hard
 one. Thank you for your help, kids, Mr. Mouse will be very happy!*". "*Excuse me
 sir, but who are you, who is Mr. Mouse, what were you doing, and why, and what
-is this board and how can you talk and..." - they asked in tandem, many
+is this board and how can you talk and...*" - they asked in tandem, many
 questions at the same time.
 
  ![Mr. Butterfly](mr-butterfly.png)
