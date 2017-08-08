@@ -22,8 +22,8 @@ stripes of black, yet somehow it all made a strange kind of sense.
 Mr. Butterfly knocked on the door, and in a few seconds, the door opened, and
 Mr. Mouse greeted Mr. Butterfly: "*At last, my friend, you arrived! Come inside,
 come inside, we have lots of work to do!*". Then, as he realized his friend did
-not come alone, he continued: "*Guests! How lovely, we don't see many guests
-around here. Come in you two!*", and he gestured towards the shed. The Twins
+not come alone, he continued: "*Guests! How lovely, we don't see guests around
+here often. Come in you two!*", and he gestured towards the shed. The Twins
 walked in, and saw so many gadgets they couldn't even imagine exist. Jaws
 dropped they marveled at the amount of electronic devices Mr. Mouse hoarded in
 there. "*Sweet collection, isn't it?*" - he asked proudly, and the Twins could
