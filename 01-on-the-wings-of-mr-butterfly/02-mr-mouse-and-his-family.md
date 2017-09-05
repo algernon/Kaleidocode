@@ -28,3 +28,10 @@ walked in, and saw so many gadgets they couldn't even imagine exist. Jaws
 dropped they marveled at the amount of electronic devices Mr. Mouse hoarded in
 there. "*Sweet collection, isn't it?*" - he asked proudly, and the Twins could
 not disagree.
+
+At the far end of the shed stood a big table with a computer and half a dozen
+screens on it, and countless keyboards and other input devices in front. Mr.
+Butterfly gave the circuit board to Mr. Mouse, who immediately took to his desk,
+and enthusiastically invited their guests over too: "*Come, come, you must see
+this! We've been working on something aaaamazing here!*" "*Not least you must,
+because you helped me fix it up!*" - Mr. Butterfly added.
