@@ -18,8 +18,6 @@ desire to see what their hosts have been working on, and so Mr. Mouse continued:
 "*Splendid! We'll start from the beginning, so you can do this at home too,
 would you want to!*".
 
-### Getting started
-
 An so Mr. Mouse began to explain how to start:
 
  > Our keyboard uses a micro controller that is compatible with Arduino. You
